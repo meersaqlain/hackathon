@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 const Herosection = () => {
     return(
         <div className="relative w-full h-[812.53]">

@@ -16,10 +16,10 @@ const Footer = () => {
                     
                     <div className="mt-16 font-bold text-black">
 
-                    <li className="pb-10"><a href="">Home</a></li>
+                    <li className="pb-10"><a href="././">Home</a></li>
                     <li className="pb-10"><a href="./Shop">Shop</a></li>
                     <li className="pb-10"><a href="">About</a></li>
-                    <li className="pb-10"><a href="">Contact</a></li> 
+                    <li className="pb-10"><a href="Contact">Contact</a></li> 
 
                     </div>
                     

@@ -1,13 +1,9 @@
 
 
 import {
-    Pagination,
-    PaginationContent,
-    PaginationEllipsis,
-    PaginationItem,
-    PaginationLink,
+
     PaginationNext,
-    PaginationPrevious,
+   
   } from "@/components/ui/pagination"
   
 
@@ -124,22 +120,10 @@ const Shop = () => {
                  </div>
 
                   <div className="mb-10 mt-10">
-                  <Pagination>
-                 <PaginationContent>
-                 <PaginationItem>
-                 <PaginationPrevious href="" />
-                 </PaginationItem>
-                  <PaginationItem>
-                  <PaginationLink href="">1</PaginationLink>
-                  </PaginationItem>
-                 <PaginationItem>
-                 <PaginationEllipsis />
-                 </PaginationItem>
-                    <PaginationItem>
+                
+                 
                   <PaginationNext href="Single_Product" />
-                  </PaginationItem>
-                      </PaginationContent>
-                      </Pagination>
+                  
               </div>
 
               

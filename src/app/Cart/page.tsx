@@ -1,15 +1,11 @@
 import {
-    Pagination,
-    PaginationContent,
-    PaginationEllipsis,
-    PaginationItem,
-    PaginationLink,
+   
     PaginationNext,
-    PaginationPrevious,
+    
   } from "@/components/ui/pagination"
 
 
-
+import Link from "next/link";
 import { Trophy,BadgeCheck , Truck , Headset , Trash } from "lucide-react";
 const Cart = () => {
 
@@ -76,9 +72,9 @@ const Cart = () => {
                        <span className="pl-16 text-[#B88E2F] text-1xl"> Rs.250.000.000</span>
                     </div>
                     </div>
-                    <button className="py-6 px-16 border border-black rounded-lg mt-10 ml-20 text-center text-1xl text black">
+                    <Link href="Check_Out"><button className="py-6 px-16 border border-black rounded-lg mt-10 ml-20 text-center text-1xl text black">
                         Check Out
-                    </button>
+                    </button></Link>
           </div>
 
        </div>
@@ -110,22 +106,9 @@ const Cart = () => {
                 </div>
 
                 <div className="mb-10 mt-10">
-                  <Pagination>
-                 <PaginationContent>
-                 <PaginationItem>
-                 <PaginationPrevious href="" />
-                 </PaginationItem>
-                  <PaginationItem>
-                  <PaginationLink href="">1</PaginationLink>
-                  </PaginationItem>
-                 <PaginationItem>
-                 <PaginationEllipsis />
-                 </PaginationItem>
-                    <PaginationItem>
-                  <PaginationNext href="Cart" />
-                  </PaginationItem>
-                      </PaginationContent>
-                      </Pagination>
+                 
+                  <PaginationNext href="Check_Out" />
+                
               </div>
         </div>
 

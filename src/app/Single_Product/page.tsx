@@ -1,12 +1,8 @@
 import Link from 'next/link';
 import {
-    Pagination,
-    PaginationContent,
-    PaginationEllipsis,
-    PaginationItem,
-    PaginationLink,
+
     PaginationNext,
-    PaginationPrevious,
+  
   } from "@/components/ui/pagination"
 
 import { ChevronRight , Star , Facebook , Twitter , Instagram} from 'lucide-react';
@@ -70,7 +66,7 @@ const SingleProduct = () => {
              <div className="flex gap-5 text-black">
                 <div className='flex h-12 w-36 border border-black gap-11 pl-3 mt-5 py-3 rounded-lg'><p>-</p><p>1</p><p>+</p></div>
              <Link href="Cart"><div className='h-12 w-96 border border-black rounded-lg mt-5 justify-center items-center py-3 px-1 font-semibold'>Add To Cart</div></Link>
-             <div className='h-12 w-96 border border-black rounded-lg mt-5 justify-center items-center py-2 px-3 font-semibold'>Compare</div>
+             <Link href="Product_Comparison"><div className='h-12 w-96 border border-black rounded-lg mt-5 justify-center items-center py-2 px-3 font-semibold'>Compare</div></Link>
            
              </div>
             <hr className="w-full bg-gray-950  my-10"/>
@@ -154,22 +150,9 @@ const SingleProduct = () => {
          
 
                  <div className="mb-10 mt-10">
-                  <Pagination>
-                 <PaginationContent>
-                 <PaginationItem>
-                 <PaginationPrevious href="" />
-                 </PaginationItem>
-                  <PaginationItem>
-                  <PaginationLink href="">1</PaginationLink>
-                  </PaginationItem>
-                 <PaginationItem>
-                 <PaginationEllipsis />
-                 </PaginationItem>
-                    <PaginationItem>
+                  
                   <PaginationNext href="Cart" />
-                  </PaginationItem>
-                      </PaginationContent>
-                      </Pagination>
+                  
               </div>
      </div>
    
