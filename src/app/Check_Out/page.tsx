@@ -24,9 +24,9 @@ const Check_Out = () => {
          </div>
          </div>
         
-        <form className="bg-white">
-            <div className="  h-[1280px]  grid grid-cols-2">
-              <div className="font-bold text-black justify-items-center">
+        <form className="bg-white ">
+            <div className="  h-[1280px]  grid lg:grid-cols-2">
+              <div className="font-bold text-black lg:justify-items-center">
                 <h1 className="ml-24 mt-20 font-bold text-2xl text-black">Billing Details</h1>
              <div className="flex gap-3 ml-24 mt-5 ">
                 <div>
@@ -60,11 +60,13 @@ const Check_Out = () => {
              <div className=" py-6 w-64 border rounded border-black mt-5 text-center">Additional Information </div>
              </div>
 
+             
+
               </div>
 
 
-            <div>
-                <div className="flex mt-48 gap-52 font-bold ">
+            <div >
+                <div className="flex lg:mt-48 gap-52 font-bold mt-7">
                     <h1 className="space-y-10 mb-10 text-black">Product
                         <p className="mt-5 text-gray-400">Asgaard sofa</p>
                         <p className="text-black">Subtotal</p>
@@ -91,29 +93,30 @@ const Check_Out = () => {
             
             </div>
         </form>
-
-        <div className=" grid grid-cols-12 bg-[#FAF3EA] w-full h-[270px] mb-5">
-                <Trophy className="size-24 mt-20 ml-10" />
-                 <div className="col-span-2 ml-10 mt-24 ">
-                    <div className="text-2xl font-bold text-black">High Quality</div>
-                    <p className="text-[#898989]">Crafted From Top Materials</p>
-                 </div>
-                 <BadgeCheck className="size-24 mt-20 ml-10"/>
-                 <div className="col-span-2 ml-10 mt-24 ">
-                    <div className="text-2xl font-bold text-black">Warranty Protection</div>
-                    <p className="text-[#898989]">Over 2 years</p>
-                 </div>
-                 <Truck  className="size-24 mt-20 ml-10" />
-                 <div className="col-span-2 ml-10 mt-24 ">
-                    <div className="text-2xl font-bold text-black">Free Shipping</div>
-                    <p className="text-[#898989]">Over 150 $</p>
-                 </div>
-                 <Headset className="size-24 mt-20 ml-10"/>
-                 <div className="col-span-2 ml-10 mt-24 ">
-                    <div className="text-2xl font-bold text-black">24 / 7 Support</div>
-                    <p className="text-[#898989]">Dedicated support</p>
-                 </div>
-                    
+      <div className="mt-[800px] lg:mt-0">
+        <div className=" grid grid-cols-12 bg-[#FAF3EA] w-full lg:h-[270px] mb-5">
+                        <Trophy className="lg:size-24 lg:mt-20 Lg:ml-10 size-10 " />
+                         <div className="col-span-2 lg:ml-10 lg:mt-24 ml-2">
+                            <div className="lg:text-2xl font-bold text-black">High Quality</div>
+                            <p className="text-[#898989]">Crafted From Top Materials</p>
+                         </div>
+                         <BadgeCheck className="lg:size-24 lg:mt-20 Lg:ml-10  size-10"/>
+                         <div className="col-span-2 lg:ml-10 lg:mt-24 ml-2">
+                            <div className="lg:text-2xl font-bold text-black">Warranty Protection</div>
+                            <p className="text-[#898989]">Over 2 years</p>
+                         </div>
+                         <Truck  className="lg:size-24 lg:mt-20 Lg:ml-10 size-10 ml-2" />
+                         <div className="col-span-2 lg:ml-10 lg:mt-24 ml-2 ">
+                            <div className="lg:text-2xl font-bold text-black">Free Shipping</div>
+                            <p className="text-[#898989]">Over 150 $</p>
+                         </div>
+                         <Headset className="lg:size-24 lg:mt-20 Lg:ml-10 size-10 "/>
+                         <div className="col-span-2 lg:ml-10 lg:mt-24 ml-2 ">
+                            <div className="lg:text-2xl font-bold text-black">24 / 7 Support</div>
+                            <p className="text-[#898989]">Dedicated support</p>
+                         </div>
+                            
+                        </div>
                 </div>
                 <PaginationNext href="Contact" />
         </div> 

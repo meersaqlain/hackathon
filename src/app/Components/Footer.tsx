@@ -3,15 +3,15 @@ import React from "react";
 const Footer = () => {
     return (
       <div>
-        <footer className="grid grid-cols-12 bg-white">
-              <div className=" col-span-3">
-                <div className="text-2xl ml-20 text-black font-bold">Funiro</div>
-                <div className="mt-16 ml-20 text-gray-500 ">400 University Drive Suite 200 Coral gables</div>
-                <div className="ml-20  text-gray-500 ">Fl 33134 USA </div>
+        <footer className="grid grid-cols-12 bg-white lg:w-full w-[425px]">
+              <div className=" col-span-3 ">
+                <div className="text-2xl lg:ml-20 text-black font-bold">Funiro</div>
+                <div className="mt-16 lg:ml-20 text-gray-500 ">400 University Drive Suite 200 Coral gables</div>
+                <div className="lg:ml-20  text-gray-500 ">Fl 33134 USA </div>
               </div>
 
               <div className="col-span-6">
-                <ul className="flex  gap-11 ml-20">
+                <ul className="flex  gap-11 lg:ml-20">
                   <div className=" text-gray-500 ">Link
                     
                     <div className="mt-16 font-bold text-black">
@@ -36,8 +36,8 @@ const Footer = () => {
               </div> 
               <div className=" text-gray-500 ">Newsletter
                 <div className="mt-16 ">
-                  <div className="flex  text-gray-500 underline "><input type="email" placeholder="Enter Your Email Address "/>
-                    <li className="ml-8 text-black font-bold">SUBSCRIBE</li>
+                  <div className="lg:flex  text-gray-500 underline "><input type="email" placeholder="Enter Your Email Address "/>
+                    <li className="lg:ml-20 text-black font-bold">SUBSCRIBE</li>
                   </div>
                   
                 </div>
@@ -46,7 +46,7 @@ const Footer = () => {
               </div>
               
         </footer>
-         <div className="ml-20 text-black">
+         <div className="lg:ml-20 text-black">
         <hr className="w-full bg-gray-950  my-10"/>
 
        <p className="font-bold mb-10">2024 furniro.All rights reverved</p>

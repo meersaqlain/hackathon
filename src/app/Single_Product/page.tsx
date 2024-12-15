@@ -25,8 +25,8 @@ const SingleProduct = () => {
        
         </div>
 
-        <div className="grid grid-cols-4">
-            <div className="flex col-span-2 mt-5 ml-20 mb-12">
+        <div className="lg:grid grid-cols-4">
+            <div className="flex col-span-2 mt-5 lg:ml-20 mb-12">
                
               <div className='space-y-7 '>
               <img src="c1.png" alt="asgaard sofa"/>
@@ -65,8 +65,8 @@ const SingleProduct = () => {
 
              <div className="flex gap-5 text-black">
                 <div className='flex h-12 w-36 border border-black gap-11 pl-3 mt-5 py-3 rounded-lg'><p>-</p><p>1</p><p>+</p></div>
-             <Link href="Cart"><div className='h-12 w-96 border border-black rounded-lg mt-5 justify-center items-center py-3 px-1 font-semibold'>Add To Cart</div></Link>
-             <Link href="Product_Comparison"><div className='h-12 w-96 border border-black rounded-lg mt-5 justify-center items-center py-2 px-3 font-semibold'>Compare</div></Link>
+             <Link href="Cart"><div className='h-12 lg:w-96 border border-black rounded-lg mt-5 justify-center items-center py-3 px-1 font-semibold'>Add To Cart</div></Link>
+             <Link href="Product_Comparison"><div className='h-12 lg:w-96 border border-black rounded-lg mt-5 justify-center items-center py-2 px-3 font-semibold '>Compare</div></Link>
            
              </div>
             <hr className="w-full bg-gray-950  my-10"/>
@@ -106,16 +106,16 @@ const SingleProduct = () => {
           Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.
         </div>
          </div>
-         <div>
+         <div >
             <div className='flex justify-center items-center gap-5 mt-10 mb-10'>
-             <img src='s1.png' alt='sofa'/>
-             <img src='s2.png' alt='sofa'/>
+             <img src='s1.png' alt='sofa' className='w-[200px] h-[225px] lg:h-full lg:w-full'/>
+             <img src='s2.png' alt='sofa' className='w-[200px] h-[225px] lg:h-full lg:w-full'/>
             </div>
          </div>
          <hr className="w-full bg-gray-950  my-10"/>
 
          <h3 className="text-center text-black font-semibold text-2xl mt-10  bg-white">Related Products</h3>
-         <div className="grid grid-cols-4 items-center justify-items-center mt-10 mb-10   bg-white">
+         <div className="lg:grid grid-cols-4 items-center justify-items-center mt-10 mb-10   bg-white">
                     
                     <div className="w-[285px] h-[446px] bg-gray-200"><img src="p1.png" alt="product"/>
                     <ul className="font-semibold text-black ml-4 mt-4">

@@ -48,74 +48,89 @@ const Shop = () => {
           </div>
           <div>
 
-         <div className="grid grid-cols-4 items-center justify-items-center mt-40 gap-5  bg-white">
+         <div className=" lg:grid grid-cols-4 items-center justify-items-center mt-40 gap-5  bg-white">
                     
-                    <div className="w-[285px] h-[446px] bg-gray-200"><img src="p1.png" alt="product"/>
+                    <div className="lg:w-[285px] lg:h-[446px] bg-gray-200"><img src="p1.png" alt="product"/>
                     <ul className="font-semibold text-black ml-4 mt-4">
                        <li>Syltherine</li>
                        <li>Rp 2500.000</li>
                     </ul>
                     </div>
-                   <a href="./Single_Product"><div className="w-[285px] h-[446px] bg-gray-200"><img src="p2.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
+                   <a href="./Single_Product"><div className="lg:w-[285px] lg:h-[446px] bg-gray-200"><img src="p2.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
                        <li>Patty</li>
                        <li>Rp 2500.000</li>
                     </ul></div></a>
-                   <div className="w-[285px] h-[446px] bg-gray-200"><img src="p3.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
+                    
+                    
+                   <div className="lg:w-[285px] lg:h-[446px] bg-gray-200"><img src="p3.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
                        <li>Laviosa</li>
                        <li>Rp 2500.000</li>
                     </ul></div>
-                   <div className="w-[285px] h-[446px] bg-gray-200"><img src="p4.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
+                   <div className="lg:w-[285px] lg:h-[446px] bg-gray-200"><img src="p4.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
                        <li>Lolito</li>
                        <li>Rp 2500.000</li>
                     </ul></div>
-                   <div className="w-[285px] h-[446px] bg-gray-200"><img src="p5.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
+                    
+                    
+                   <div className="lg:w-[285px] lg:h-[446px] bg-gray-200"><img src="p5.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
                        <li>Respira</li>
                        <li>Rp 2500.000</li>
                     </ul></div>
-                   <div className="w-[285px] h-[446px] bg-gray-200"><img src="p6.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
+                   <div className="lg:w-[285px] lg:h-[446px] bg-gray-200"><img src="p6.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
                        <li>Grifa</li>
                        <li>Rp 2500.000</li>
                     </ul></div>
-                   <div className="w-[285px] h-[446px] bg-gray-200 "><img src="p7.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
+                    
+                    
+                   <div className="lg:w-[285px] lg:h-[446px] bg-gray-200 "><img src="p7.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
                        <li>Mugga</li>
                        <li>Rp 2500.000</li>
                     </ul></div>
-                   <div className="w-[285px] h-[446px] bg-gray-200"><img src="p8.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
+                   <div className="lg:w-[285px] lg:h-[446px] bg-gray-200"><img src="p8.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
                        <li>Pingky</li>
                        <li>Rp 2500.000</li>
                     </ul></div>
-                    <div className="w-[285px] h-[446px] bg-gray-200"><img src="p2.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
+                    
+                    
+                    <div className="lg:w-[285px] lg:h-[446px] bg-gray-200"><img src="p2.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
                        <li>Patty</li>
                        <li>Rp 2500.000</li>
                     </ul></div>
-                   <div className="w-[285px] h-[446px] bg-gray-200"><img src="p3.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
+                   <div className="lg:w-[285px] lg:h-[446px] bg-gray-200"><img src="p3.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
                        <li>Laviosa</li>
                        <li>Rp 2500.000</li>
                     </ul></div>
-                   <div className="w-[285px] h-[446px] bg-gray-200"><img src="p4.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
+                    
+                    
+                   <div className="lg:w-[285px] lg:h-[446px] bg-gray-200"><img src="p4.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
                        <li>Lolito</li>
                        <li>Rp 2500.000</li>
                     </ul></div>
-                   <div className="w-[285px] h-[446px] bg-gray-200"><img src="p5.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
+                   <div className="lg:w-[285px] lg:h-[446px] bg-gray-200"><img src="p5.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
                        <li>Respira</li>
                        <li>Rp 2500.000</li>
                     </ul></div>
-                   <div className="w-[285px] h-[446px] bg-gray-200"><img src="p6.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
+                    
+                    
+                   <div className="lg:w-[285px] lg:h-[446px] bg-gray-200"><img src="p6.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
                        <li>Grifa</li>
                        <li>Rp 2500.000</li>
                     </ul></div>
-                   <div className="w-[285px] h-[446px] bg-gray-200 "><img src="p7.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
+                   <div className="lg:w-[285px] lg:h-[446px] bg-gray-200 "><img src="p7.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
                        <li>Mugga</li>
                        <li>Rp 2500.000</li>
                     </ul></div>
-                   <div className="w-[285px] h-[446px] bg-gray-200"><img src="p8.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
+                    
+                    
+                   <div className="lg:w-[285px] lg:h-[446px] bg-gray-200"><img src="p8.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
                        <li>Pingky</li>
                        <li>Rp 2500.000</li>
                     </ul></div>
-                    <div className="w-[285px] h-[446px] bg-gray-200 "><img src="p7.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
+                    <div className="lg:w-[285px] lg:h-[446px] bg-gray-200 "><img src="p7.png" alt="product"/>   <ul className="font-semibold text-black ml-4 mt-4">
                        <li>Mugga</li>
                        <li>Rp 2500.000</li>
                     </ul></div>
+                    
                     </div>               
                  </div>
 
@@ -127,25 +142,25 @@ const Shop = () => {
               </div>
 
               
-                <div className=" grid grid-cols-12 bg-[#FAF3EA] w-full h-[270px] mb-5">
-                <Trophy className="size-24 mt-20 ml-10" />
-                 <div className="col-span-2 ml-10 mt-24 ">
-                    <div className="text-2xl font-bold text-black">High Quality</div>
+                <div className=" grid grid-cols-12 bg-[#FAF3EA] w-full lg:h-[270px] mb-5">
+                <Trophy className="lg:size-24 lg:mt-20 Lg:ml-10 size-10 " />
+                 <div className="col-span-2 lg:ml-10 lg:mt-24 ml-2">
+                    <div className="lg:text-2xl font-bold text-black">High Quality</div>
                     <p className="text-[#898989]">Crafted From Top Materials</p>
                  </div>
-                 <BadgeCheck className="size-24 mt-20 ml-10"/>
-                 <div className="col-span-2 ml-10 mt-24 ">
-                    <div className="text-2xl font-bold text-black">Warranty Protection</div>
+                 <BadgeCheck className="lg:size-24 lg:mt-20 Lg:ml-10  size-10"/>
+                 <div className="col-span-2 lg:ml-10 lg:mt-24 ml-2">
+                    <div className="lg:text-2xl font-bold text-black">Warranty Protection</div>
                     <p className="text-[#898989]">Over 2 years</p>
                  </div>
-                 <Truck  className="size-24 mt-20 ml-10" />
-                 <div className="col-span-2 ml-10 mt-24 ">
-                    <div className="text-2xl font-bold text-black">Free Shipping</div>
+                 <Truck  className="lg:size-24 lg:mt-20 Lg:ml-10 size-10 ml-2" />
+                 <div className="col-span-2 lg:ml-10 lg:mt-24 ml-2 ">
+                    <div className="lg:text-2xl font-bold text-black">Free Shipping</div>
                     <p className="text-[#898989]">Over 150 $</p>
                  </div>
-                 <Headset className="size-24 mt-20 ml-10"/>
-                 <div className="col-span-2 ml-10 mt-24 ">
-                    <div className="text-2xl font-bold text-black">24 / 7 Support</div>
+                 <Headset className="lg:size-24 lg:mt-20 Lg:ml-10 size-10 "/>
+                 <div className="col-span-2 lg:ml-10 lg:mt-24 ml-2 ">
+                    <div className="lg:text-2xl font-bold text-black">24 / 7 Support</div>
                     <p className="text-[#898989]">Dedicated support</p>
                  </div>
                     

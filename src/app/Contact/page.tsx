@@ -29,7 +29,7 @@ const Contact =  () => {
             <p className="text-gray-400">For More Information About Our Product & Services. Please Feel Free To Drop Us An Email. <br/> Our Staff Always Be There To Help You Out. Do Not Hesitate!</p>
           </div>
           <div className="grid grid-cols-2 ">
-            <div className="ml-96">
+            <div className="lg:ml-96">
                 <div className="text-black mb-10 ">
                 <h1 className="font-bold">Address</h1>
                 <p>236 5th SE Avenue, New York <br/> NY10000, United States</p>
@@ -47,13 +47,13 @@ const Contact =  () => {
             </div>
             <div className="space-y-6 text-black font-bold justify-items-start">
              <p >Your Name</p>   
-            <div className=" py-6 w-96 border rounded border-black mt-5 "> </div>
+            <div className=" py-6 lg:w-96 w-52 border rounded border-black mt-5 "> </div>
             <p >Email Address</p>
-            <div className=" py-6 w-96 border rounded border-black mt-5 "> </div>
+            <div className=" py-6 lg:w-96 w-52 border rounded border-black mt-5 "> </div>
              <p >Subject</p>
-             <div className=" py-6 w-96 border rounded border-black mt-5 "> </div>
+             <div className=" py-6 lg:w-96 w-52 border rounded border-black mt-5 "> </div>
              <p >Message</p>
-             <div className=" py-12 w-96 border rounded border-black mt-5 "> </div>
+             <div className=" py-12 lg:w-96 w-52 border rounded border-black mt-5 "> </div>
              <Link href="Sidebar"><button className="py-4 px-16 bg-[#B88E2F] text-white mt-5">Submit</button></Link>
              
             </div>
@@ -61,29 +61,29 @@ const Contact =  () => {
 
         </div>
 
-        <div className=" grid grid-cols-12 bg-[#FAF3EA] w- h-[270px] mb-5">
-                <Trophy className="size-24 mt-20 ml-10" />
-                 <div className="col-span-2 ml-10 mt-24 ">
-                    <div className="text-2xl font-bold text-black">High Quality</div>
-                    <p className="text-[#898989]">Crafted From Top Materials</p>
-                 </div>
-                 <BadgeCheck className="size-24 mt-20 ml-10"/>
-                 <div className="col-span-2 ml-10 mt-24 ">
-                    <div className="text-2xl font-bold text-black">Warranty Protection</div>
-                    <p className="text-[#898989]">Over 2 years</p>
-                 </div>
-                 <Truck  className="size-24 mt-20 ml-10" />
-                 <div className="col-span-2 ml-10 mt-24 ">
-                    <div className="text-2xl font-bold text-black">Free Shipping</div>
-                    <p className="text-[#898989]">Over 150 $</p>
-                 </div>
-                 <Headset className="size-24 mt-20 ml-10"/>
-                 <div className="col-span-2 ml-10 mt-24 ">
-                    <div className="text-2xl font-bold text-black">24 / 7 Support</div>
-                    <p className="text-[#898989]">Dedicated support</p>
-                 </div>
-                    
-                </div>
+       <div className=" grid grid-cols-12 bg-[#FAF3EA] w-full lg:h-[270px] mb-5">
+                               <Trophy className="lg:size-24 lg:mt-20 Lg:ml-10 size-10 " />
+                                <div className="col-span-2 lg:ml-10 lg:mt-24 ml-2">
+                                   <div className="lg:text-2xl font-bold text-black">High Quality</div>
+                                   <p className="text-[#898989]">Crafted From Top Materials</p>
+                                </div>
+                                <BadgeCheck className="lg:size-24 lg:mt-20 Lg:ml-10  size-10"/>
+                                <div className="col-span-2 lg:ml-10 lg:mt-24 ml-2">
+                                   <div className="lg:text-2xl font-bold text-black">Warranty Protection</div>
+                                   <p className="text-[#898989]">Over 2 years</p>
+                                </div>
+                                <Truck  className="lg:size-24 lg:mt-20 Lg:ml-10 size-10 ml-2" />
+                                <div className="col-span-2 lg:ml-10 lg:mt-24 ml-2 ">
+                                   <div className="lg:text-2xl font-bold text-black">Free Shipping</div>
+                                   <p className="text-[#898989]">Over 150 $</p>
+                                </div>
+                                <Headset className="lg:size-24 lg:mt-20 Lg:ml-10 size-10 "/>
+                                <div className="col-span-2 lg:ml-10 lg:mt-24 ml-2 ">
+                                   <div className="lg:text-2xl font-bold text-black">24 / 7 Support</div>
+                                   <p className="text-[#898989]">Dedicated support</p>
+                                </div>
+                                   
+                               </div>
 
                 <PaginationNext href="Product_Comparison" />
         </div>
